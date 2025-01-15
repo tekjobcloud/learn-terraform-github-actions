@@ -14,7 +14,7 @@ terraform {
     organization = "2025-01-11-sultansaturday"
 
     workspaces {
-      name = "2025-01-14-api-workflow"
+      name = "2025-01-14-tfe-api-workflow"
     }
   }
 
