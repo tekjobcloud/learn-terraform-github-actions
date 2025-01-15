@@ -295,7 +295,7 @@ resource "aws_route_table_association" "public-us-east-1c" {
 
 resource "aws_launch_template" "app1_LT" {
   name_prefix   = "app1_LT"
-  image_id      = "ami-06ed60ed1369448bd"
+  image_id      = "ami-0e2c8caa4b6378d8c"
   instance_type = "t2.micro"
 
   key_name = "MyLinuxBox"
