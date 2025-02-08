@@ -9,7 +9,7 @@ provider "aws" {
 }
 
 terraform {
-
+/*
   cloud {
     organization = "2025-01-11-sultansaturday"
 
@@ -17,7 +17,7 @@ terraform {
       name = "2025-01-14-tfe-api-workflow"
     }
   }
-
+*/
 
   required_providers {
     aws = {
